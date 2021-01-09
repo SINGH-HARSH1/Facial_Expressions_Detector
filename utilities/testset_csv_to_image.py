@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import cv2
 
-test_data = pd.read_csv("E://Projects//Expression_Detector_Dataset//csv_files//datasets//test.csv")
+test_data = pd.read_csv("..//csv_files//datasets//test.csv")
 
 print("Script Started......")
 
@@ -22,7 +22,7 @@ count = 0
 for i in range(1, test_data.shape[0]):
     face = test_data.iloc[i]
     img = csv_to_image(face)
-    path = "E://Projects//Expression_Detector_Dataset//test//"
+    path = "..//Expression_Detector_Dataset//test//"
     count += 1
     cv2.imwrite(path + "Test" + str(count) + '.jpg', img)
 
