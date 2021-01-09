@@ -1,5 +1,5 @@
 """
-This script Generates Images from the pixel values mentioned in the CSV file.
+This script Generates Images from the pixel values mentioned in the train CSV file.
 """
 import numpy as np
 import pandas as pd
@@ -13,12 +13,11 @@ test_data = pd.read_csv("..//csv_files//datasets/test.csv")
 print("Script Started......")
 
 
-def train_csv_to_image(row):
-    pixels = row["pixels"]
+def train_csv_to_image(series):
+    pixels = series["pixels"]
     pixels = np.array(pixels.split())
     pixels = pixels.reshape(48, 48)
     pixels = pixels.astype('uint8')
-    # labels = dataframe["emotions"]
     return pixels
 
 
