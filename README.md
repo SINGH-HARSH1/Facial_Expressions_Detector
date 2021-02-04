@@ -9,6 +9,12 @@ Facial Expression Recognition Challenge", which was hosted on
 <a href="https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/overview">Kaggle</a>.
 The Project aims to create an application capable to detect facial expressions provided an input from camera and video Sources.
 </p>
+<p>
+•	The idea behind the project is to create an application that can suggest an emoji based on the facial expression of a person
+•	The application can be used with other messaging platforms to suggest emoji to the user based on their facial expressions while messaging
+•	Further, we are currently scraping the web for images and videos that can be used to build a CNN model
+
+</p>
 
 <h3> Datasets </h3>
 <p>
