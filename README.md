@@ -10,9 +10,8 @@ Facial Expression Recognition Challenge", which was hosted on
 The Project aims to create an application capable to detect facial expressions provided an input from camera and video Sources.
 </p>
 <p>
-•	The idea behind the project is to create an application that can suggest an emoji based on the facial expression of a person
-•	The application can be used with other messaging platforms to suggest emoji to the user based on their facial expressions while messaging
-•	Further, we are currently scraping the web for images and videos that can be used to build a CNN model
+<li>•	The idea behind the project is to create an application that can suggest an emoji based on the facial expression of a person</li>
+<li>•	The application can be used with other messaging platforms to suggest emoji to the user based on their facial expressions while messaging</li>
 
 </p>
 
