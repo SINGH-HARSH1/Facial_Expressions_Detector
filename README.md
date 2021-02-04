@@ -1,6 +1,6 @@
 # Facial_Expressions_Detector
 An Application to Detect Facial Expressions
-<li>Created By - Harsh Singh</li>
+
 
 <h3>Inspiration</h3>
 <p>
